@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="action.php" method="post">
+        <div>
+            <div>
+                <label for="fname">FirstName</label>
+                <input type="text" id="fname" placeholder="firstName" name="fname">
+
+                <label for="lname">LastName</label>
+                <input type="text" id="lname" placeholder="lastName" name="lname">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="email" name="email">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="password" name="password">
+            </div>
+
+            <div>
+                <label for="sex">Sex</label>
+                <input type="radio" name="sex" value="Men" checked> Men
+                <input type="radio" name="sex" value="Female"> Female
+                <input type="radio" name="sex" value="Other"> Other
+            </div>
+
+            <div>
+                <select name="car" id="car">
+                    <option value="audi">AUDI</option>
+                    <option value="bmw">BMW</option>
+                    <option value="polo">POOL</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="Birthday"></label>
+                <input type="date" />
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+
+        </div>
+    </form>
+
+
+</body>
+
+</html>
