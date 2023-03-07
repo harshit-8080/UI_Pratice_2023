@@ -14,11 +14,27 @@
         #id2{
             color: green;
         }
+        .greet{
+            width: max-content;
+            border-style: solid;
+            margin: 2px;
+            padding: 4px;
+        }
+
+        /* multiple selectors */
+        #id1, #id2{
+            font-size: large;
+        }
+
+        /* nested selectors */
+        .greet p{
+            color: blue;
+        }
     </style>
 </head>
 
 <body>
-    <div>
+    <div class="greet">
         <h2 id="id1">Welcome</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maiores, quisquam fugit eos rerum quibusdam
             vitae repudiandae ducimus repellendus perferendis.</p>
