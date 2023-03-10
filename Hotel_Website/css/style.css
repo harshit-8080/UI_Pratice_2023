@@ -94,3 +94,14 @@ p {
 .text-primary {
     color: #f7c08a;
 }
+
+.lead{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.btn{
+    display: block;
+    margin-top: 50px;
+    
+}
