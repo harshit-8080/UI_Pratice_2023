@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex basics</title>
+    <style>
+        .item {
+            background: gray;
+            border: solid 2px #ccc;
+            text-align: center;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+        }
+
+        .flex {
+            display: flex;
+            /* flex-wrap: wrap; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: column; */
+            /* flex-shrink: 0;
+            /* flex-grow: 1; */
+
+            flex: 1;  /* flex-grow */
+            flex: 1 0 200px; /* grow shrink basis */
+        }
+
+        /* .item1{
+            flex-shrink: 0;
+        }
+        .item2{
+            flex-grow: 1;
+        }
+        .item2{
+            flex-basis:0;
+        } */
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="flex">
+
+        <div class="item item1">
+            <h3>Item 11</h3>
+        </div>
+
+        <div class="item item2">
+            <h3>Item 22</h3>
+        </div>
+
+        <div class="item item3">
+            <h3>Item 33</h3>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
