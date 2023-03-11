@@ -117,3 +117,82 @@ ul{
 .hero * {
     z-index:10;
 }
+
+/* Icons */
+.icons {
+    padding: 30px;
+}
+
+.icons h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.icons i {
+    background-color: #28a745;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.flex-items{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.flex-items div {
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.column2{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    background: #28a745;
+}
+
+.btn-outline{
+    margin: 20px;
+    background: white;
+    color: green;
+}
+
+
+@media(max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+    }
+
+    .flex-items {
+        flex-direction: column;
+    }
+
+    .flex-columns .column, .flex-grid .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .team img {
+        width: 70%;
+    }
+
+    .row{
+       flex-direction: column;
+    }
+}
